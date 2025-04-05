@@ -56,7 +56,7 @@ const workerConfig = {
       responseForbiddenKeyword: 'bad gateway',
       // [OPTIONAL] if specified, the check will run in your specified region,
       // refer to docs https://github.com/lyc8503/UptimeFlare/wiki/Geo-specific-checks-setup before setting this value
-      checkLocationWorkerRoute: 'https://xxx.example.com',
+      checkLocationWorkerRoute: 'https://myblog.kemiaosw.top',
     },
     // Example TCP Monitor
     {
@@ -67,7 +67,7 @@ const workerConfig = {
       // `target` should be `host:port` for tcp monitors
       target: '1.2.3.4:22',
       tooltip: 'My production server SSH',
-      statusPageLink: 'https://example.com',
+      statusPageLink: 'https://myblog.kemiaosw.top',
       timeout: 5000,
     },
   ],
